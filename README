@@ -14,6 +14,11 @@ of a case sensitive file system.
 You need gcc, binutils, bzip2, flex, python, perl, make, find, grep, diff,
 unzip, gawk, getopt, subversion, libz-dev and libc headers installed.
 
+sudo apt update
+sudo apt install git-core build-essential libssl-dev libncurses5-dev unzip gawk zlib1g-dev 
+sudo apt install subversion mercurial flex gettext gcc-multilib
+
+
 1. Run "./scripts/feeds update -a" to obtain all the latest package definitions
 defined in feeds.conf / feeds.conf.default
 
